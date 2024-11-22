@@ -68,12 +68,13 @@ O banco de dados é inicializado automaticamente pelo arquivo DataBase.py, caso 
 Tela de Login
 Entrada para usuário e senha.
 
-![Tela de Login](icons/login_screen.png)
+![Tela de Login](https://br908.hostgator.com.br:2083/cpsess7926858534/frontend/jupiter/filemanager/showfile.html?file=login_screen.PNG&fileop=&dir=%2Fhome3%2Fcon23128%2Fimg&dirop=&charset=&file_charset=&baseurl=&basedir=)
+
 
 Botão para login e registro.
 Tela de Cadastro
 
-![Tela de Cadastro](icons/register_screen.png)
+![Tela de Cadastro](https://br908.hostgator.com.br:2083/cpsess7926858534/frontend/jupiter/filemanager/showfile.html?file=register_screen.PNG&fileop=&dir=%2Fhome3%2Fcon23128%2Fimg&dirop=&charset=&file_charset=&baseurl=&basedir=)
 
 Campos para nome, e-mail, nome de usuário e senha.
 Botão para salvar o cadastro e voltar para a tela de login.
