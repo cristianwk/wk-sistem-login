@@ -1,0 +1,92 @@
+# WK Sistem - Sistema de Login
+
+Um sistema de login desenvolvido em **Python** utilizando **Tkinter** para a interface gráfica e **SQLite** para o banco de dados. 
+Este projeto foi criado como um exemplo prático de autenticação de usuários, com funcionalidades de login e registro.
+
+## 📋 Funcionalidades
+
+- **Login de usuários**: Verifica o nome de usuário e senha no banco de dados.
+- **Cadastro de novos usuários**: Permite registrar novos usuários, incluindo nome, e-mail, nome de usuário e senha.
+- **Validação de entradas**: Garante que todos os campos sejam preenchidos antes de registrar um novo usuário.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python**: Linguagem principal do projeto.
+- **Tkinter**: Para a interface gráfica.
+- **SQLite**: Para gerenciamento do banco de dados local.
+- **Messagebox**: Para exibição de mensagens ao usuário.
+
+## 📂 Estrutura do Projeto
+
+📦 login 
+├── 📜 index.py # Código principal do sistema 
+├── 📜 DataBase.py # Configuração do banco de dados ├── 
+📂 icons # Ícones e imagens utilizados │ ├── favicon.ico │ ├── wk.png 
+└── 📂 database # Arquivo do banco SQLite └── users.db
+
+markdown
+Copiar código
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+
+- Python 3.12 ou superior instalado.
+- Biblioteca `tkinter` (instalada por padrão com Python).
+- Biblioteca SQLite (já incluída com Python).
+
+### Passos
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/cristianwk/wk-sistem-login.git
+   cd wk-sistem-login
+Certifique-se de que o arquivo users.db existe na pasta database. Se não existir, ele será criado automaticamente na primeira execução.
+
+Instale dependências (se necessário):
+
+bash
+Copiar código
+pip install pillow
+Execute o arquivo principal:
+
+bash
+Copiar código
+python index.py
+🗂️ Banco de Dados
+A tabela Users utilizada no banco de dados contém os seguintes campos:
+
+Campo	Tipo	Descrição
+Id	INTEGER	ID do usuário (único)
+Name	TEXT	Nome completo
+Email	TEXT	E-mail do usuário
+User	TEXT	Nome de usuário
+Password	TEXT	Senha do usuário
+O banco de dados é inicializado automaticamente pelo arquivo DataBase.py, caso a tabela ainda não exista.
+
+🖼️ Interface do Sistema
+Tela de Login
+Entrada para usuário e senha.
+
+![Tela de Login](icons/login_screen.png)
+
+Botão para login e registro.
+Tela de Cadastro
+
+![Tela de Cadastro](icons/register_screen.png)
+
+Campos para nome, e-mail, nome de usuário e senha.
+Botão para salvar o cadastro e voltar para a tela de login.
+🛡️ Validação e Segurança
+Embora este projeto use SQLite e funcione como exemplo didático, recomenda-se implementar melhorias de segurança em projetos reais, como:
+
+Hashing de senhas: Use bibliotecas como bcrypt.
+Validação de dados: Para prevenir SQL Injection e outros problemas.
+📄 Licença
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
+
+✉️ Contato
+Criado por Cristian. Entre em contato:
+
+E-mail: cristian@consultoriawk.com
+LinkedIn: https://www.linkedin.com/in/cristian-marques-5465a068/
