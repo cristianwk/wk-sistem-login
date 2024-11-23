@@ -68,12 +68,12 @@ O banco de dados é inicializado automaticamente pelo arquivo DataBase.py, caso 
 Tela de Login
 Entrada para usuário e senha.
 
-![Tela de Login](https://versamartonline.shop/images/login_screen.PNG)
+!["Tela de Login"](https://versamartonline.shop/images/login_screen.PNG "Tela de Login")
 
 Botão para login e registro.  
 Tela de Cadastro  
 
-![Tela de Cadastro](https://versamartonline.shop/images/register_screen.PNG)
+!["Tela de Cadastro"](https://versamartonline.shop/images/register_screen.PNG "Tela de Cadastro")
 
 
 Campos para nome, e-mail, nome de usuário e senha.
